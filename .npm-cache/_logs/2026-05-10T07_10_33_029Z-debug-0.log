@@ -1,0 +1,41 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.13.0
+2 info using node@v26.1.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\pavan\Documents\New project\.npmrc
+5 silly config load:file:C:\Users\pavan\.npmrc
+6 silly config load:file:C:\Users\pavan\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm create next-app@latest . --ts --tailwind --eslint --app --src-dir --import-alias @/* --use-npm
+8 verbose argv "create" "next-app@latest" "." "--" "--ts" "--tailwind" "--eslint" "--app" "--src-dir" "--import-alias" "@/*" "--use-npm"
+9 verbose logfile logs-max:10 dir:C:\Users\pavan\Documents\New project\.npm-cache\_logs\2026-05-10T07_10_33_029Z-
+10 verbose logfile C:\Users\pavan\Documents\New project\.npm-cache\_logs\2026-05-10T07_10_33_029Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+13 http fetch GET 200 https://registry.npmjs.org/npm 586ms
+14 http fetch GET 200 https://registry.npmjs.org/create-next-app 699ms (cache miss)
+15 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+16 warn exec The following package was not found and will be installed: create-next-app@16.2.6
+17 silly idealTree buildDeps
+18 silly fetch manifest create-next-app@16.2.6
+19 silly packumentCache full:https://registry.npmjs.org/create-next-app cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/create-next-app 988ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/create-next-app set size:undefined disposed:false
+22 silly placeDep ROOT create-next-app@16.2.6 OK for:  want: 16.2.6
+23 silly reify moves {}
+24 silly audit bulk request { 'create-next-app': [ '16.2.6' ] }
+25 http cache create-next-app@https://registry.npmjs.org/create-next-app/-/create-next-app-16.2.6.tgz 0ms (cache hit)
+26 silly tarball no local data for create-next-app@https://registry.npmjs.org/create-next-app/-/create-next-app-16.2.6.tgz. Extracting by manifest.
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 316ms
+28 silly audit report {}
+29 http fetch GET 200 https://registry.npmjs.org/create-next-app/-/create-next-app-16.2.6.tgz 690ms (cache miss)
+30 verbose cwd C:\Users\pavan\Documents\New project
+31 verbose os Windows_NT 10.0.26200
+32 verbose node v26.1.0
+33 verbose npm  v11.13.0
+34 notice
+34 notice New minor version of npm available! 11.13.0 -> 11.14.1
+34 notice Changelog: https://github.com/npm/cli/releases/tag/v11.14.1
+34 notice To update run: npm install -g npm@11.14.1
+34 notice  { force: true, Symbol(proc-log.meta): true }
+35 verbose exit 0
+36 info ok
